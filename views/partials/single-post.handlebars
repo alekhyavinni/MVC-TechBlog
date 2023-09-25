@@ -1,40 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MVC Tech Blog</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+{{> post-info post}}
 
-<body>
-  <div class="wrapper">
-      <header class="hero">
-          <div>
-            <nav class"nav">
-                    <a class="link" href="/">Home</a>
-                    <a class="link" href="/dashboard">Dashboard</a>
-                    {{#if loggedIn}}
-                    <a class="link" href="/" id="logout">Logout</a>
-                    {{else}}
-                    <a class="link" href="/login">Login</a>
-                    {{/if}}
-                </nav>          
-          </div>
+{{#if loggedIn}}
+<div class="card">
+    <h3 class="card-header"></h3>
+    <form class="card-body comment-form" id="comment-form">
 
-          <h1 class="app-title"><i class="fab "></i>The Tech Blog</h1>
-      </header>
+        <label class="form-label">Comment</label>
+        <input id="comment" name="comment-body" class="form-input" />
 
-    <main>
-      {{{ body }}}
-    </main>
-  </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+{{/if}}
 
-    {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
-    {{/if}}
+{{> comments post.comments}}
 
-</body>
-
-</html>
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
