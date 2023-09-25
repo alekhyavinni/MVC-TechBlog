@@ -106,7 +106,7 @@ The steps to show on how the user could use the tech-blog:-
 
 * When the user click on the existing blog post, the user will be presented with the post title, contents, post creator's username, and date created for that post and have option to comment. When the user enter a comment and click on the submit button while signed in, then the comment is saved and the post is updated to display the coment, the comment creator's username, and the date created.
 
-  ![alt text](/Assets/img07.png)
+  ![alt text](/Assets/MVC15.png)
 
 * when the user click on the dashboard option in the navigation, then the user is taken to the dashboard and presented with the blog post the user have created and the option to add a new blog post and when the click on the button (grey bar) to add a new blog post.  Then the user is prompted to enter both a title and contents for the blog post and when the user click on the button to create a new blog post.  The title and contents of the post are saved and the user is taken back to an updated dash board with the new blog post.
 
