@@ -13,6 +13,8 @@
     <img src="https://img.shields.io/badge/express.js-green" />
 </p>
 
+</div>
+
 # description
  a CMS-style blog website akin to WordPress designed for developers to post their blogs and engage in discussions by commenting on each other's content. The application will adhere to the MVC architectural pattern, employing Handlebars.js for templating, Sequelize as the ORM, and integrating the express-session npm package for authentication.
 
@@ -23,7 +25,7 @@ The URL of the deployed application to Heroku is <strong>https://mvc-techblog12-
 
 The overview of the deployed application to Heroku :-
 
-![alt text](/assets/heroku.png)
+![alt text](/Assets/heroku.png)
 
 ## Table of Contents
 
@@ -66,24 +68,24 @@ The overview of the deployed application to Heroku :-
 
 * The test of the application is done locally before deployment to Heroku using Insomnia.  At the command prompt, type in npm start or nodemon server.js:-
 
-  ![alt text](/assets/MVC1.png)
+  ![alt text](/Assets/MVC1.png)
 
 * Testing locally using Insomnia
 
-  ![alt text](/assets/MVC2.png)
+  ![alt text](/Assets/MVC2.png)
 
 * The database models are set up in accordance to the criteria.   MySQL Workbench is installed to help with design, create and browse the database schemas, work with database objects and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
   
 * For this application, at command prompt, type in npm run seeds :- 
 
-   ![alt text](/assets/MVC3.png)
+   ![alt text](/Assets/MVC3.png)
 
 * Below shows MySQL tables for the database, tech_blog:-
 
-    ![alt text](/assets/MVC4.png)
-    ![alt text](/assets/MVC5.png)
-    ![alt text](/assets/MVC6.png)
-    ![alt text](/assets/MVC7.png)
+    ![alt text](/Assets/MVC4.png)
+    ![alt text](/Assets/MVC5.png)
+    ![alt text](/Assets/MVC6.png)
+    ![alt text](/Assets/MVC7.png)
 
 ## Usage
 
@@ -93,24 +95,24 @@ The steps to show on how the user could use the tech-blog:-
 
 * When the user visit the CMS-style Blog site, the user will be presented with the home page, which includes the existing blog posts, navigation links for the homepage.
 
-  ![alt text](/assets/heroku.png)
+  ![alt text](/Assets/heroku.png)
 
 * When the user is taken to the homepage and clicking on any other links in the navigation, the user would be prompted to either sign up or sign in.  When the user choose to sign up and prompted to create a username and password and click on the sign-up button, the user credentials are saved and the user is logged into the site.
 
-   ![alt text](/assets/MVC9.png)
-   ![alt text](/assets/MVC10.png)
-   ![alt text](/assets/MVC8.png)
+   ![alt text](/Assets/MVC9.png)
+   ![alt text](/Assets/MVC10.png)
+   ![alt text](/Assets/MVC8.png)
 
 
 * When the user click on the existing blog post, the user will be presented with the post title, contents, post creator's username, and date created for that post and have option to comment. When the user enter a comment and click on the submit button while signed in, then the comment is saved and the post is updated to display the coment, the comment creator's username, and the date created.
 
-  ![alt text](/assets/img07.png)
+  ![alt text](/Assets/img07.png)
 
 * when the user click on the dashboard option in the navigation, then the user is taken to the dashboard and presented with the blog post the user have created and the option to add a new blog post and when the click on the button (grey bar) to add a new blog post.  Then the user is prompted to enter both a title and contents for the blog post and when the user click on the button to create a new blog post.  The title and contents of the post are saved and the user is taken back to an updated dash board with the new blog post.
 
-  ![alt text](/assets/MVC11.png)
-  ![alt text](/assets/MVC12.png)
-  ![alt text](/assets/MVC13.png)
+  ![alt text](/Assets/MVC11.png)
+  ![alt text](/Assets/MVC12.png)
+  ![alt text](/Assets/MVC13.png)
 
 
 
